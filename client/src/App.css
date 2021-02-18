@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.ant-spin-spinning {
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  position: absolute;
+  top: 35% !important;
+}
+
+.ant-spin-dot-item {
+  color: #fff !important;
+}
+
+.ant-spin-text {
+  color: #fff !important;
+  font-size: 20px;
+}

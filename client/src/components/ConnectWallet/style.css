@@ -1,0 +1,22 @@
+p {
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+button span {
+  color: #023073;
+}
+
+button:hover {
+  background-color: #023073 !important;
+}
+
+button span:hover {
+  color: #fff;
+}

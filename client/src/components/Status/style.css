@@ -1,0 +1,15 @@
+span.title-status {
+  display: inline-block;
+  width: 350px;
+  font-size: 18px;
+}
+
+div.progress-status {
+  margin-bottom: 15px;
+}
+
+p.balance {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
