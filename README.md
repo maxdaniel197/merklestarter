@@ -1,10 +1,12 @@
-# Merklestarter
-IDO platform, build on BSC with merkle tree structure.
+<h1 align="center">
+  <br>
+      <img src="merkle-tree.png" alt="logo" title="merklestarter"  height="200" />
+  <br>
+  Merkle Starter
+  <br>
+</h1>
 
-
-## Motivation
-why we create Merklestarter ? recently we are trying to join some IDO on Polkastarter, and got angry. The site is too slow, no way to join only 300 people in whitelist. Going deeper in contract interaction, it shows very limited function because each time we can only add 100 people to receiver list. Furthermore, user must send 2 transaction to get token, swap and claim, which cost gas too much.
-Merklestarter will let funder easier to raise fund, once for thousand people, and user only need to claim by sending only 1 transaction.
+<h4 align="center">IDO platform, built on BSC with Merkle tree structure.</h4>
 
 ## Features
 
@@ -12,6 +14,11 @@ Merklestarter will let funder easier to raise fund, once for thousand people, an
 - Cheaper.
 - Whitelist with thousands of users.
 - Cost less transactions.
+
+## Motivation
+Why we create Merklestarter ? recently we were trying to join some IDO on Polkastarter, and got angry. The site is too slow, no way to join only 300 people in whitelist. Going deeper in contract interaction, it shows very limited function because each time we can only add 100 people to receiver list. Furthermore, user must send 2 transaction to get token, swap and claim, which cost gas too much.
+Merklestarter will let funder easier to raise fund, once for thousand people, and user only need to claim by sending only 1 transaction.
+
 
 ## How Merklestarer works?
 
@@ -28,13 +35,13 @@ Merklestarter will let funder easier to raise fund, once for thousand people, an
 
 - [x] Smart Contracts: Done
 - [x] Server: Done
-- [ ] Client: 90% in progress
+- [x] Client: Done
 - [ ] Operator Page: To be developed, now run by scripts only
 - [ ] Crosschain: To be developed
 
-## Instruction
+## Instructions
 
-See [](instructions.md) for more details.
+See [Instructions](Instructions.md) for more details.
 
 ## LICENSE
 
