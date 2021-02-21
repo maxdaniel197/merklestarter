@@ -2,7 +2,6 @@
 
 ## Intro
 
-- **Polkastarter**: Operator will distribute token to many users, each by one transactions, which lead to high cost, especially in nowadays when gas cost extremely expensive.
 - **Merkle Starter**: Operator will create a mechanism to store whitelist information with a data structure called Merkle Tree. With this mechanism, operator now cost only 1 transaction each time they want to do whitelist. Distribute cost now are pushed to user, they must send a claim transaction to get their tokens.
 
 ## Repo structure

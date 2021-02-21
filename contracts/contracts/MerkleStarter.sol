@@ -20,6 +20,8 @@ contract MerkleStarter is Ownable {
         uint256 totalAmount
     );
 
+    uint public rate;
+
     event TrancheExpired(uint256 tranche);
 
     IERC20 public token;
@@ -58,7 +60,8 @@ contract MerkleStarter is Ownable {
         uint256 _tranche,
         uint256 _balance,
         bytes32[] memory _merkleProof
-    ) public {
+    ) public payable {
+        require(msg.value >= _balance * rate);
         _claim(user, _tranche, _balance, _merkleProof);
         _disburse(user, _balance);
     }
