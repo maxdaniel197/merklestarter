@@ -30,8 +30,9 @@ contract MerkleStarter is Ownable {
     mapping(uint256 => mapping(address => bool)) public claimed;
     uint256 public tranches;
 
-    constructor(IERC20 _token) public {
+    constructor(IERC20 _token, uint256 _rate) public {
         token = _token;
+        rate = _rate;
     }
 
     function seedNewAllocations(bytes32 _merkleRoot, uint256 _totalAllocation)
